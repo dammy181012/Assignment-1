@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,900&display=swap');
+body {
+    background-color: hsl(30, 38%, 92%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    width: 50%;
+    /* height: 400px;
+    width: 400px; */
+    /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.container img {
+    height: 100%;
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    float: left;
+}
+
+.text-container {
+    /* padding: 10px; */
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+
+.text-container h5 {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.text-container h1 {
+    color: #000;
+    font-family: "Fraunces", serif;
+    margin-left: 20px;
+    text-transform: capitalize;
+    text-wrap: wrap;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.text-container p {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    /* font-weight: 600; */
+    line-height: 1;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 20px;
+}
+
+button {
+    margin-left: 20px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    width: 80%;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.price h2 {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+}
+
+.price p {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
