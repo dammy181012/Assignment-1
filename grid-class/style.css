@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px 100px;
+}
+
+.container div {
+    background-color: #ccc;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+
+/* .container div:first-child {
+    background-color: #f00;
+    width: 400px;
+    height: 300px;
+} */
