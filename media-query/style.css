@@ -5,3 +5,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* width,min-width and max-width */
+
+h1 {
+    color: blue;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media screen and (min-width:768px) {
+    h1 {
+        color: red;
+    }
+}
+
+
+/* min-width>= */
+
+
+/* Tablet width>=mobile width && width<=Desktop */
+
+
+/*Tablet is 768px  */
+
+
+/* Desktop is 1024px */
+
+
+/* Mobile is 480px */
